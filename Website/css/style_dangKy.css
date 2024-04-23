@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------HEADER---------------------------------- */
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+/* ------------------------------NAV---------------------------------- */
+
+.navbar {
+    padding: 0 10px;
+    background-color: rgba(30,143,4,255);
+}
+
+.navbar-nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2px 7px;
+}
+
+.navbar-nav li {
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+li .form-control {
+    height: auto;
+    font-size: 12px;
+}
+
+.navbar-nav li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.wrapper h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    padding: 8px 35px;
+    border-radius: 10px;
+}
+
+.quen-mk {
+    font-size: 14.5px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hop {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background-image: url("../images/dangNhap/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+.btn {
+    padding: 13px 0;
+    width: 100%;
+}
+
+.dn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.quen-mk a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.lien-he-1 {
+    display: inline-flex;
+    width: 67%;
+    padding: 10px;
+    background-color: rgb(240, 244, 244);
+    border-radius: 10px;
+}
+
+.p1 {
+    width: 50%;
+}
+
+.p1 a {
+    font-size: 12px;
+}
+
+.p1 a:hover {
+    color:rgba(30,143,4,255);
+}
+
+ul {
+    list-style: none;
+}
+
+.p1 a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.lien-he-2 {
+    width: 30%;
+    margin-left: 24px;
+    padding: 10px;
+    background-color: rgb(240, 244, 244);
+    border-radius: 10px;
+}
+
+.thanh-phan {
+    justify-content: space-between;
+    display: inline-flex;
+    width: 100%;
+    padding: 6px 4px;
+}
+
+.sdt {
+    color: rgba(30,143,4,255);
+    font-weight: bold;
+}
+
+.anh-footer {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#sdt-birth {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#sdt-birth div {
+    width: 50%;
+    margin-right: 10px;
+}
+
+#em-1 {
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+}
+
+span {
+    font-size: 14px;
+    color:red;
+}
+
+thead {
+    background-color: rgba(30,143,4,255);
+    color:white;
+}
+
+table {
+    font-size: 14px;
+}
+
+
+

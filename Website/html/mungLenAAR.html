@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery/jquery-3.7.1.min.js"></script>
+    <script src="../boostrap/bootstrap.min.js"></script>
+    <script src="../js/gioHang.js"></script>
+    <script src="../js/cuocGoi.js"></script>
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style_mungLenAAR.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../images/home/anh_header.png" alt="">
+        </header>
+        <div class="navbar navbar-expand-lg">
+            <a href="#" class="navbar-brand text-white">&#x1F3EA; Store24h</a>
+            <div class="navbar-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link"><input type="text" name="" id="" class="form-control" placeholder="Bạn tìm gì..."></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btn btn-outline text-white" id="gio-hang">&#128722; Giỏ hàng</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btn btn-outline text-white" id="cuocgoi">&#x260E; Gọi mua hàng</a></li>
+                    <li class="nav-item"><a href="../html/sanDeal.html" class="nav-link btn btn-outline text-white">&#x1F4B0; SĂN DEAL 8.000Đ</a></li>
+                    <li class="nav-item"><a href="../html/vip.html" class="nav-link btn btn-outline text-white">&#127775; VIP</a></li>
+                    <li class="nav-item"><a href="../html/nhanVoucher.html" class="nav-link btn btn-outline text-white" id="gio-hang">&#128722; Nhận Voucher</a></li>
+                    <li class="nav-item"><a href="../html/thuCuDoiMoi.html" class="nav-link btn btn-outline text-white">&#x21BA; THU CŨ ĐỔI MỚI</a></li>
+                    <li class="nav-item"><a href="../html/tinTuc.html" class="nav-link btn btn-outline text-white">&#128240; Tin tức</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row dn-dk">
+            <div class="col dangnhap-dangki"><button type="button" class="btn btn-outline-success kexanh" id="btn-dn">&#128274; Đăng nhập</button></div>
+            <div class="col dangnhap-dangki"><button type="button" class="btn btn-outline-success kexanh">&#x1F4DD; Đăng ký</button></div>
+        </div>
+        <h4>MỪNG LÊN AAR - TẶNG NHIỀU QUÀ BẤT NGỜ</h4>
+        <p><i>21/09/2023</i></p>
+        <div class="loi-cam-on">
+            <p><strong>24hStore tự hào là Hệ thống uỷ quyền chính hãng Apple tại Việt Nam (Apple Authorized Reseller - AAR). Nhằm chia sẻ niềm vui, niềm tự hào cũng như tri ân và gửi lời cảm ơn sâu sắc đến Quý khách hàng đã tin tưởng và đồng hành cùng 24hStore suốt thời gian qua. Hệ thống xin được SALE toàn bộ sản phẩm và gửi tặng những sản phẩm chính hãng của Apple như iPhone 11 VN/A, sạc dự phòng MagSafe, AirPods 2, sạc MagSafe Duo cho khách hàng đến tham gia chương trình mua sắm trong tháng 7.</strong></p>
+        </div>
+        <img src="../images/mungLenAAR/1.jpeg" alt="">
+        <p><strong>Thời gian diễn ra chương trình:</strong>Từ ngày 07/07/2022 đến hết ngày 31/07/2022</p>
+        <p><strong>Điều kiện áp dụng chương trình:</strong>Toàn bộ khách hàng tham gia mua sắm trong thời gian diễn ra chương trình, trên các kênh Online lẫn Offline thuộc <strong>Hệ thống 24hStore:</strong></p>
+        <p>- 7B/A-8B/A Nguyễn Ảnh Thủ, Trung Mỹ Tây, Q.12</p>
+        <p>- 481A Nguyễn Thị Thập, Tân Phong, Q.7</p>
+        <p>- 625A Âu Cơ, Hòa Thạnh, Q. Tân Phú</p>
+        <p>- 256 Võ Văn Ngân, Bình Thọ, Q. Thủ Đức</p>
+        <p>- 389 Quang Trung, P.10, Q. Gò Vấp</p>
+        <p>- 418 Nguyễn Trãi, P.8, Q.5</p>
+        <p>- 652 3 Tháng 2, P.14, Q.10</p>
+        <p>- 249 - 251 Trần Quang Khải, P. Tân Định, Q.1</p>
+        <p>- 296 3 Tháng 2, P.12, Q.10</p>
+        <p><strong>Nội dung chương trình:</strong></p>
+        <p><strong>1. Tặng iPhone 11 VN/A và nhiều phần quà chính hãng Apple khi mua hàng tại hệ thống</strong></p>
+        <img src="../images/mungLenAAR/2.jpeg" alt="">
+        <p>Duy nhất 1 suất <strong>iPhone 11 VN/A giá 16.990.000đ</strong> sẽ được tặng cho Khách hàng may mắn mua hàng từ ngày <strong>07/07-31/07/2022.</strong></p>
+        <p>Mỗi tuần sẽ quay trúng thưởng <strong>1 lần 2 suất</strong> dành cho khách đã mua hàng trong tuần, cụ thể:</p>
+        <p><strong>- Tuần 1 (07/07 - 11/07/2022) - Quay trúng thưởng vào ngày 12/07/2022</strong></p>
+        <p>- Pin dự phòng MagSafe giá 2.590.000đ</p>
+        <p>- Cáp sạc MagSafe Duo giá 3.490.000đ</p>
+        <p><strong>- Tuần 2 (12/07 - 18/07/2022) - Quay trúng thưởng vào ngày 19/07/2022</strong></p>
+        <p>- Pin dự phòng MagSafe giá 2.590.000đ</p>
+        <p>- Airpods 2 VN/A giá 4.390.000đ</p>
+        <p><strong>- Tuần 3 (19/07 - 25/07/2022) - Quay trúng thưởng vào ngày 26/07/2022</strong></p>
+        <p>- Cáp sạc MagSafe Duo giá 3.490.000đ</p>
+        <p>- Pin dự phòng MagSafe giá 2.590.000đ</p>
+        <p><strong>- Tuần 4 (26/07 - 01/08/2022) - Quay trúng thưởng vào ngày 02/08/2022</strong></p>
+        <p>- 2 Pin dự phòng MagSafe giá 5.180.000đ</p>
+        <p><strong><i>Lưu ý:</i></strong></p>
+        <p>- Ngày diễn ra bốc thăm trúng thưởng <strong>iPhone 11 VN/A</strong> là ngày 02/08/2022</p>
+        <p>- Bốc thăm dựa trên số Hoá đơn của Khách hàng, sau khi mua sắm tại 24hStore.</p>
+        <p>- Việc bốc thăm sẽ diễn ra trong buổi Livestream trên <strong>Fanpage 24hStore.vn Hệ Thống Bán Lẻ Hàng Công Nghệ Uy Tín</strong>, nhấn Like và Follow Page ngay hôm nay để không bỏ lỡ những buổi công bố giải hàng tuần.</p>
+        <p>- Khách hàng trúng giải mang theo CMND/CCCD đến nhận giải. Trong vòng 20 ngày kể từ sau ngày công bố kết quả bốc thăm, nếu không có khách đến nhận quà thì phần thưởng sẽ bị vô hiệu hoá.</p>
+        <p><strong>2. Giảm thêm khi liên hệ đặt trước</strong></p>
+        <img src="../images/mungLenAAR/3.gif" alt="">
+        <table class="table table-bordered table-light table-hover table-striped">
+            <thead>
+                <tr>
+                    <th class="col-5">SẢN PHẨM</th>
+                    <th class="col-7">ĐẶT TRƯỚC GIẢM THÊM</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Samsung cũ</th>
+                    <td><strong>100.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPad</th>
+                    <td><strong>100.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Apple Watch</th>
+                    <td><strong>100.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>MacBook Air M1</th>
+                    <td><strong>100.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>MacBook Pro 2021</th>
+                    <td><strong>1.000.000đ</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>3. Tặng SIM 4G Mobifone khi mua sắm và sửa chữa tại 24hStore</strong></p>
+        <img src="../images/mungLenAAR/4.gif" alt="">
+        <p>Khách hàng đến với 24hStore mua sắm điện thoại, phụ kiện hay sửa chữa tại hệ thống sẽ được tặng SIM 4G MobiFone cho mỗi dịch vụ. Số lượng SIM có hạn, mọi người hãy tranh thủ thời gian này đến 24hStore mua sắm nhé!</p>
+        <p><strong>4. Phụ kiện chính hãng MUA 1 TẶNG 1 cực HOT</strong></p>
+        <p><strong>4.1. Sắm loa Harman/JBL tặng Tai nghe chụp tai Gaming SoundPEATS G1 trị giá 590.000đ</strong></p>
+        <img src="../images/mungLenAAR/5.gif" alt="">
+        <table class="table table-bordered table-light table-hover table-striped">
+            <thead>
+                <tr>
+                    <th class="col-5">SẢN PHẨM</th>
+                    <th class="col-7">GIÁ KHUYẾN MÃI</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Loa Harman/Kardon Onyx Studio 7</th>
+                    <td><strong>5.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Loa JBL Charge 5</th>
+                    <td><strong>3.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Loa JBL Pulse 4</th>
+                    <td><strong>4.990.000đ</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>4.2. Phụ kiện chính hãng giảm đến 50%</strong></p>        
+        <img src="../images/mungLenAAR/6.gif" alt="">
+        <table class="table table-bordered table-light table-hover table-striped">
+            <thead>
+                <tr>
+                    <th class="col-5">SẢN PHẨM</th>
+                    <th class="col-7">GIÁ KHUYẾN MÃI</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Adapter sạc Apple Type C 20W</th>
+                    <td><strong>540.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Airpods 2</th>
+                    <td><strong>2.690.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>AirPods 3</th>
+                    <td><strong>4.350.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Airpods Pro 2021</th>
+                    <td><strong>4.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>AirTag (4 Pack)</th>
+                    <td><strong>1.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Apple Pencil (1st Generation)</th>
+                    <td><strong>2.390.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Apple Pencil (2nd Generation)</th>
+                    <td><strong>3.190.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Cáp sạc MagSafe</th>
+                    <td><strong>990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Cáp sạc MagSafe Duo</th>
+                    <td><strong>1.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Magic Mouse 2021</th>
+                    <td><strong>1.690.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Magic Keyboard 2021</th>
+                    <td><strong>1.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Magic Keyboard với phím số</th>
+                    <td><strong>2.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Magic Keyboard với Touch ID 2021</th>
+                    <td><strong>2.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Magic Keyboard với Touch ID và Numeric Keypad</th>
+                    <td><strong>3.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Pin dự phòng MagSafe</th>
+                    <td><strong>1.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Tai nghe không dây Beats Flex - Flame Blue</th>
+                    <td><strong>890.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Tai nghe True Wireless Beats Studio Buds - White</th>
+                    <td><strong>2.890.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Magic Trackpad 2</th>
+                    <td><strong>2.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Móc cao su AirTag Loop - Deep Navy</th>
+                    <td><strong>590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Smart Keyboard cho iPad (9th generation) - US English</th>
+                    <td><strong>3.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Ví da iPhone với MagSafe - Baltic Blue</th>
+                    <td><strong>990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Magic Mouse 2022 Black Multi - Touch</th>
+                    <td><strong>1.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Tai nghe bluetooth hiệu QCY T5 - Màu đen</th>
+                    <td><strong>290.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Tai nghe Devia EarPods 3.5 mm</th>
+                    <td><strong>90.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>Ốp chính hãng itskin</th>
+                    <td><strong>Toàn bộ giảm 50%</strong></td>
+                </tr>
+                <tr>
+                    <th>Combo cốc cáp Mophie 10W iPhone</th>
+                    <td><strong>350.000đ</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>5. iPhone cũ chính hãng giảm sâu đến 4.600.000đ</strong></p>
+        <img src="../images/mungLenAAR/7.gif" alt="">
+        <table class="table table-bordered table-light table-hover table-striped">
+            <thead>
+                <tr>
+                    <th class="col-5">SẢN PHẨM</th>
+                    <th class="col-7">GIÁ KHUYẾN MÃI</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>iPhone 8</th>
+                    <td><strong>3.690.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 8 Plus</th>
+                    <td><strong>4.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone XS</th>
+                    <td><strong>5.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone XS Max</th>
+                    <td><strong>7.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone XR</th>
+                    <td><strong>5.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 11</th>
+                    <td><strong>7.690.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 11 Pro</th>
+                    <td><strong>9.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 11 Pro Max</th>
+                    <td><strong>12.590.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 12 mini</th>
+                    <td><strong>10.190.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 12 Pro</th>
+                    <td><strong>15.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 12 Pro Max</th>
+                    <td><strong>19.190.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 13</th>
+                    <td><strong>15.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 13 Pro</th>
+                    <td><strong>21.990.000đ</strong></td>
+                </tr>
+                <tr>
+                    <th>iPhone 13 Pro Max</th>
+                    <td><strong>23.990.000đ</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="../images/mungLenAAR/8.jpeg" alt="">        
+        <img src="../images/mungLenAAR/9.gif" alt="">
+        <p>Chúc Quý khách hàng có thể chọn được sản phẩm ưng ý nhất trong chương trình và là chủ nhân của <strong>chiếc iPhone 11 VN/A</strong> nhé!</p> 
+        <p><strong>24hStore - Niềm tin và hơn thế nữa…</strong></p>
+        <footer>
+            <div class="lien-he-1">
+                <div class="p1">
+                    <ul>
+                        <li><a href="../html/GioiThieu.html">&#9733; Giới thiệu</a></li>
+                        <li><a href="../html/tinTuc.html">&#128240; Tin tức</a></li>
+                        <li><a href="../html/tuyenDung.html">&#128100; Tuyển dụng</a></li>
+                        <li><a href="../html/lienHe.html">&#x1F4E9; Liên hệ</a></li>
+                        <li><a href="../html/quyCheHoatDong.html">&#127980; Quy chế hoạt động</a></li>
+                        <li><a href="../html/vip.html">&#x1F4E9; Ưu đãi thành viên</a></li>
+                        <li><a href="../html/cauHoiThuongGap.html">&#128240; Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+                <div class="p1">
+                    <ul>
+                        <li><a href="../html/chinhSachBaoVeGia.html">&#128200; Chính sách bảo vệ giá</a></li>
+                        <li><a href="../html/chinhSachBaoHanh.html">&#128223; Chính sách bảo hành</a></li>
+                        <li><a href="../html/chinhSachDoiTra.html">&#128232; Chính sách đổi trả</a></li>
+                        <li><a href="../html/chinhSachBaoMat.html">&#128274; Chính sách bảo mật</a></li>
+                        <li><a href="../html/quyDinhSaoLuu.html">&#128223; Quy định về việc sao lưu</a></li>
+                        <li><a href="../html/muaTraGop.html">&#128200; Mua trả góp</a></li>
+                        <li><a href="../html/giaoHangVaThanhToan.html">&#128274; Giao hàng và thanh toán</a></li>
+                        <li><a href="../html/chinhSachSuDung.html">&#128232; Chính sách sử dụng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lien-he-2">
+                <div class="thanh-phan">
+                    <p>&#9742; Tổng đài mua hàng<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+                <div class="thanh-phan">
+                    <p>&#9742; Khách hàng doanh nghiệp<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+                <div class="thanh-phan">
+                    <p>&#9742; Phản ánh chất lượng<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+            </div>
+        </footer>
+        <div class="anh-footer">
+            <img src="../images/home/footer.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Giỏ hàng của bạn</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <th class="col-2">Số thứ tự</th>
+                            <th class="col-7">Tên sản phẩm</th>
+                            <th class="col-3">Giá</th>
+                        </thead>
+                        <tbody id="cart-body">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

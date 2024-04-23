@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mua trả góp</title>
+    <script src="../jquery/jquery-3.7.1.min.js"></script>
+    <script src="../boostrap/bootstrap.min.js"></script>
+    <script src="../js/gioHang.js"></script>
+    <script src="../js/cuocGoi.js"></script>
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style_muaTraGop.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../images/home/anh_header.png" alt="">
+        </header>
+        <div class="navbar navbar-expand-lg">
+            <a href="#" class="navbar-brand text-white">&#x1F3EA; Store24h</a>
+            <div class="navbar-nav">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link"><input type="text" name="" id="" class="form-control" placeholder="Bạn tìm gì..."></a></li>
+                <li class="nav-item"><a href="#" class="nav-link btn btn-outline text-white" id="gio-hang">&#128722; Giỏ hàng</a></li>
+                <li class="nav-item"><a href="#" class="nav-link btn btn-outline text-white" id="cuocgoi">&#x260E; Gọi mua hàng</a></li>
+                <li class="nav-item"><a href="../html/sanDeal.html" class="nav-link btn btn-outline text-white">&#x1F4B0; SĂN DEAL 8.000Đ</a></li>
+                <li class="nav-item"><a href="../html/vip.html" class="nav-link btn btn-outline text-white">&#127775; VIP</a></li>
+                <li class="nav-item"><a href="../html/nhanVoucher.html" class="nav-link btn btn-outline text-white" id="gio-hang">&#128722; Nhận Voucher</a></li>
+                <li class="nav-item"><a href="../html/thuCuDoiMoi.html" class="nav-link btn btn-outline text-white">&#x21BA; THU CŨ ĐỔI MỚI</a></li>
+                <li class="nav-item"><a href="../html/tinTuc.html" class="nav-link btn btn-outline text-white">&#128240; Tin tức</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="row dn-dk">
+            <div class="col dangnhap-dangki"><a href="../html/dangNhap.html" class="btn btn-outline-success kexanh">&#128274; Đăng nhập</a></div>
+            <div class="col dangnhap-dangki"><a href="../html/dangKy.html" class="btn btn-outline-success kexanh">&#x1F4DD; Đăng ký</a></div>
+        </div>
+        <h4>Mua trả góp</h4>
+        <h5>Chính sách mua hàng trả góp tại 24hStore như thế nào ?</h5>
+        <p>Mua hàng trả góp tại <strong>24hStore</strong>, bạn chỉ việc thanh toán ít nhất 20% giá trị là đã sở hữu ngay sản phẩm mình muốn mua, phần còn lại sẽ được hỗ trợ vay từ ngân hàng và bạn sẽ trả dần theo từng tháng.</p>
+        <p>Ví dụ: Bạn mua trả góp điện thoại Xiaomi Mi Max giá <strong>5.490.000 VND</strong>, bạn trả trước <strong>1.098.000 VND</strong>, công ty tài chính sẽ cho bạn vay <strong>4.392.000 VND</strong> còn lại. Số tiền này được gọi là số tiền vay trả góp. Lãi suất, số tiền cần góp hàng tháng của bạn sẽ được tính dựa trên con số này.</p>
+        <p>Lựa chọn dịch vụ trả góp tại <strong>24hStore</strong>, khách hàng sẽ có thêm rất nhiều cơ hội để sở hữu những sản phẩm công nghệ mình yêu thích mà không cần phải bận tâm về việc thiếu hụt tài chính hoặc rối loạn chi tiêu.</p>
+        <h5>Quy trình mua trả góp tại 24hStore ra sao?</h5>
+        <img src="../images/muaTraGop/mua-tr-gop-hinh-anh-2.png" alt="">
+        <p><strong>Bước 1:</strong></p>
+        <p>- Chọn sản phẩm cần mua và mang CMND + Giấy phép lái xe bản gốc (CMND + Hộ khẩu đối với khoản vay trên 10 triệu đồng) đến các cửa hàng thuộc hệ thống <strong>24hStore</strong>.</p>
+        <p><strong>Bước 2:</strong></p>
+        <p>- Nhân viên trả góp tại 24hStore sẽ tư vấn cho quý khách:</p>
+        <p>- Chọn chương trình trả góp phù hợp để hưởng mức lãi suất thấp nhất.</p>
+        <p>- Chọn tỷ lệ trả trước và thời hạn trả góp tối ưu để phù hợp với khả năng chi trả.</p>
+        <p>- Tính toán số tiền trả trước và số tiền trả góp mỗi tháng.</p>
+        <p>- Hướng dẫn chi tiết hồ sơ trả góp.</p>
+        <p><strong>Bước 3:</strong></p>
+        <p>- Làm hồ sơ trả góp và nhận sản phẩm.</p>
+        <p>- Nhân viên trả góp tại <strong>24hStore</strong> sẽ giúp quý khách làm hồ sơ + scan lại giấy tờ và chuyển cho đối tác tài chính thẩm định, kết quả sẽ có trong vòng từ 10 - 30 phút. <i>Sau khi ký kết và thỏa thuận hợp đồng giữa hai bên, quý khách sẽ thanh toán mức phí trả trước tùy vào gói vay đã lựa chọn</i> và nhận ngay sản phẩm tại cửa hàng.</p>
+        <h4>Cách thanh toán 0% lãi suất tại 24hStore</h4>
+        <div class="loi-cam-on">
+            <p><strong>Tại sao tôi chọn dịch vụ thanh toán trả góp 0% lãi suất ở 24hStore?</strong></p>
+        </div>
+        <p>Dịch vụ thanh toán tiêu dùng qua hình thức trả góp 0% lãi suất bằng thẻ ngân hàng hiện đang rất phổ biến tại Việt Nam. Theo đó, người sử dụng dịch vụ hoàn toàn không phải chịu phí trung gian do mức lãi suất từ bên thứ ba quy định (giống như các hình thức trả góp truyền thống). Hơn hết, thủ tục đơn giản không cần xét duyệt sẽ cực kỳ tiết kiệm thời gian dành cho Quý Khách hàng.</p>
+        <img src="../images/muaTraGop/TRA-GOP-799X500-01.jpg" alt="">
+        <p>Tham gia chương trình trả góp 0% lãi suất, quý khách sẽ thanh toán thêm phí chênh lệch (1 lần duy nhất) bao gồm phí quẹt thẻ và phí chuyển đổi trả góp theo thời hạn mặc định được quy định bởi ngân hàng hỗ trợ, sang thời hạn dài hơn theo nhu cầu của người thụ hưởng dịch vụ. Điều kiện thẻ của khách phải đủ hạn mức so với số tiền khách muốn góp qua thẻ.</p>
+        <h5>Điều kiện hỗ trợ trả góp 0% lãi suất</h5>
+        <p>Dịch vụ trả góp 0% hỗ trợ khách hàng sở hữu thẻ tín dụng quốc tế của các ngân hàng có dịch vụ mua sắm trả góp, tại các hệ thống cửa hàng có triển khai dịch vụ Payoo. Một trong những Hệ thống cửa hàng uy tín có dịch vụ hỗ trợ trả góp này chính là <strong>24hStore</strong>.</p>
+        <h5>Cách thức xử lý giao dịch trả góp 0% lãi suất tại 24hStore</h5>
+        <p>Phí chênh lệch = % Phí chuyển đổi trả góp.</p>
+        <p>Công thức trên chính xác được áp dụng để xác định tiền thanh toán cho người sử dụng dịch vụ trên phạm vi toàn cầu.</p>
+        <h5>Phí Hỗ Trợ Xử Lý Giao Dịch Trả Góp</h5>
+        <h5>Qua Payoo</h5>
+        <table class="table table-bordered table-light table-hover">
+            <thead>
+                <tr>
+                    <th colspan="12">Tổng hợp phí hỗ trợ xử lý giao dịch trả góp Payoo</th>
+                </tr>
+                <tr>
+                    <th rowspan="4" colspan="1">STT</th>
+                    <th colspan="2">Thẻ Visa/Master Card</th>
+                    <th rowspan="2">Các loại Thẻ Quốc tế khác(JCB, CUP,...)</th>
+                    <th rowspan="3" colspan="6">FE Credit có phát sinh phí hồ sơ 3,99% (trên tổng số tiền giao dịch) thu vào kì sao kê đầu tiên. Phí chuyển đổi thu tiền mặt hoặc chuyển khoản, không cộng dồn vào tổng giao dịch quẹt.</th>
+                </tr>
+                <tr>
+                    <th>Trong nước</th>
+                    <th>Nước ngoài</th>
+                </tr>
+                <tr>
+                    <th>2,0%</th>
+                    <th>2,5%</th>
+                    <th>3,0%</th>
+                </tr>
+                <tr>
+                    <th>Ngân hàng</th>
+                    <th>Kỳ hạn 3 tháng</th>
+                    <th>Kỳ hạn 6 tháng</th>
+                    <th>Kỳ hạn 9 tháng</th>
+                    <th>Kỳ hạn 12 tháng</th>
+                    <th>Kỳ hạn 15 tháng</th>
+                    <th>Kỳ hạn 18 tháng</th>
+                    <th>Kỳ hạn 24 tháng</th>
+                    <th>Kỳ hạn 36 tháng</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ACB</td>
+                    <td>2.47%</td>
+                    <td>4.09%</td>
+                    <td>5.76%</td>
+                    <td>7.48%</td>
+                    <td>x2</td>
+                    <td>x3</td>
+                    <td>x5</td>
+                    <td>x4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>BIDV</td>
+                    <td>2.09%</td>
+                    <td>3.30%</td>
+                    <td>4.40%</td>
+                    <td>5.61%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>UOB (Citibank)</td>
+                    <td>2.97%</td>
+                    <td>4.86%</td>
+                    <td>6.81%</td>
+                    <td>8.16%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Eximbank</td>
+                    <td>2.46%</td>
+                    <td>3.22%</td>
+                    <td>5.71%</td>
+                    <td>7.41%</td>
+                    <td>x</td>
+                    <td>11.00%</td>
+                    <td>14.83%</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>FECredit</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>4.20%</td>
+                    <td>4.20%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>HD Bank</td>
+                    <td>2.47%</td>
+                    <td>3.43%</td>
+                    <td>4.53%</td>
+                    <td>5.66%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>HD Saison</td>
+                    <td>2.15%</td>
+                    <td>2.79%</td>
+                    <td>4.09%</td>
+                    <td>5.20%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>HomeCredit</td>
+                    <td>3.63%</td>
+                    <td>4.73%</td>
+                    <td>6.71%</td>
+                    <td>7.92%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>HSBC</td>
+                    <td>3.22%</td>
+                    <td>5.03%</td>
+                    <td>6.27%</td>
+                    <td>8.39%</td>
+                    <td>9.51%</td>
+                    <td>10.86%</td>
+                    <td>13.67%</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Kiên Long Bank</td>
+                    <td>2.47%</td>
+                    <td>4.05%</td>
+                    <td>5.71%</td>
+                    <td>7.41%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Liên Việt Post Bank</td>
+                    <td>2.15%</td>
+                    <td>3.43%</td>
+                    <td>3.76%</td>
+                    <td>4.75%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Lotte Finance</td>
+                    <td>2.65%</td>
+                    <td>3.75%</td>
+                    <td>5.40%</td>
+                    <td>6.50%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>MSB</td>
+                    <td>2.79%</td>
+                    <td>3.65%</td>
+                    <td>6.10%</td>
+                    <td>7.37%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>MB Bank</td>
+                    <td>3.00%</td>
+                    <td>5.00%</td>
+                    <td>6.50%</td>
+                    <td>7.50%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>NamABank</td>
+                    <td>1.94%</td>
+                    <td>2.57%</td>
+                    <td>3.11%</td>
+                    <td>3.54%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>OCB</td>
+                    <td>2.63%</td>
+                    <td>3.81%</td>
+                    <td>5.03%</td>
+                    <td>6.27%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>Pvcombank</td>
+                    <td>2.15%</td>
+                    <td>2.79%</td>
+                    <td>4.09%</td>
+                    <td>5.20%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>Sacombank</td>
+                    <td>2.63%</td>
+                    <td>4.42%</td>
+                    <td>5.60%</td>
+                    <td>7.26%</td>
+                    <td>x</td>
+                    <td>10.75%</td>
+                    <td>14.48%</td>
+                    <td>22.73%</td>
+                  </tr>
+                  <tr>
+                    <td>19</td>
+                    <td>SCB</td>
+                    <td>2.81%</td>
+                    <td>4.42%</td>
+                    <td>5.65%</td>
+                    <td>7.23%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>SeABank</td>
+                    <td>2.26%</td>
+                    <td>3.22%</td>
+                    <td>5.20%</td>
+                    <td>6.33%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>21</td>
+                    <td>SHBank</td>
+                    <td>2.47%</td>
+                    <td>3.00%</td>
+                    <td>4.09%</td>
+                    <td>4.75%</td>
+                    <td>x</td>
+                    <td>8.91%</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>Shinhan Bank</td>
+                    <td>x</td>
+                    <td>4.09%</td>
+                    <td>5.20%</td>
+                    <td>6.33%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>Standard Chartered</td>
+                    <td>3.90%</td>
+                    <td>4.61%</td>
+                    <td>6.74%</td>
+                    <td>8.98%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>24</td>
+                    <td>Techcombank</td>
+                    <td>3.49%</td>
+                    <td>5.74%</td>
+                    <td>7.78%</td>
+                    <td>10.21%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>Tien Phong Bank</td>
+                    <td>1.98%</td>
+                    <td>3.63%</td>
+                    <td>5.28%</td>
+                    <td>6.93%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>26</td>
+                    <td>VIBBank</td>
+                    <td>3.81%</td>
+                    <td>5.03%</td>
+                    <td>6.27%</td>
+                    <td>8.19%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>27</td>
+                    <td>Viet Capital Bank</td>
+                    <td>2.47%</td>
+                    <td>3.11%</td>
+                    <td>3.76%</td>
+                    <td>4.31%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>28</td>
+                    <td>Vietcombank</td>
+                    <td>2.42%</td>
+                    <td>3.69%</td>
+                    <td>4.93%</td>
+                    <td>6.67%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>29</td>
+                    <td>Vietinbank</td>
+                    <td>2.47%</td>
+                    <td>3.92%</td>
+                    <td>5.59%</td>
+                    <td>6.90%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td>VPBank</td>
+                    <td>3.21%</td>
+                    <td>4.41%</td>
+                    <td>9.50%</td>
+                    <td>10.85%</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                  </tr>                  
+            </tbody>
+        </table>
+        <p>GHI CHÚ: x - Kỳ hạn không được Ngân hàng hỗ trợ.</p>
+        <p><em>Với quy trình hoàn tất trả góp 0%</em></p>
+        <p>- Ngân Hàng Citibank, đơn vị sẽ báo khách nhắn 0 gửi tổng đài 6058. Chủ thẻ sẽ điền đơn Online, chọn đối tác là MPOS</p>
+        <p>- Ngân Hàng Maritimebank thu phí quản lý trả góp của chủ thẻ 3% trên số tiền giao dịch các kỳ hạn 3,9,12 tháng. Riêng kỳ hạn 6 tháng là miễn phí.</p>
+        <p>- Ngân Hàng Techcombank thu phí quản lý trả góp của chủ thẻ 1,1% cho tất cả các kỳ hạn 3,6,9,12 tháng.</p>
+        <p>- Giao dịch thanh toán qua Link: 2.5%</p>
+        <p>- Khi thực hiện xong giao dịch đến ngày nhận sao kê, Chủ thẻ phải báo ngay cho bên Đơn vị nắm thông tin nếu giao dịch không được chia theo kỳ hạn trả góp =&gt; Đơn vị báo lại cho nhân viên mPOS nhận thông tin kịp thời hỗ trợ.</p>
+        <h5>24hStore cam kết</h5>
+        <p>- Hồ sơ thủ tục cực kì đơn giản.</p>
+        <p>- Thời gian xét duyệt và nhận sản phẩm nhanh chóng.</p>
+        <p>- Hỗ trợ hủy hoặc thanh lý hợp đồng trước hạn bất kỳ lúc nào.</p>
+        <p>- Khách hàng được hưởng đầy đủ mọi chương trình khuyến mãi, ưu đãi như khi mua trả thẳng.</p>
+        <img src="../images/muaTraGop/mua-tra-gop.jpg" alt="">
+        <h5>Đối tượng khách hàng</h5>
+        <p>Tất cả các đối tượng công dân Việt Nam trong độ tuổi từ 18 - 60 tuổi.</p>
+        <h5>Quy định trả góp tại 24hStore</h5>
+        <p>Các sản phẩm của Apple (iPhone, iPad) - Khách hàng phải trả trước theo tỷ lệ sau:</p>
+        <p>- Đối với khoản vay dưới 7 triệu đồng: Trả trước 20% giá trị khoản vay.</p>
+        <p>- Đối với khoản vay từ 7 - 12 triệu đồng: Trả trước 30% giá trị khoản vay.</p>
+        <p>- Đối với khoản vay từ 13 triệu đồng trở lên: Trả trước 40% giá trị khoản vay.</p>
+        <h5>Thủ tục bao gồm</h5>
+        <p>Đối với khoản vay dưới 10 triệu đồng: Cung cấp CMND + Bằng lái xe</p>
+        <p>Đối với khoản vay trên 10 triệu đồng: Cung cấp CMND + Hộ khẩu.</p>
+        <p>Thời gian duyệt hồ sơ trong khoảng 10 - 30 phút.</p>
+        <h5>Mức phí trả trước cho từng khoản vay</h5>
+        <p>• Trả trước 20% giá trị khoản vay: Đối với khoản vay dưới 07 triệu đồng.</p>
+        <p>• Trả trước 30% giá trị khoản vay: Đối với khoản vay từ 07 - 12 triệu đồng.</p>
+        <p>• Trả trước 40% giá trị khoản vay: Đối với khoản vay từ 13 triệu đồng trở lên.</p>
+        <p>• Trả trước 50% giá trị khoản vay: Đối với các sản phẩm của Apple (iPhone, iPad).  </p>
+        <h5>Thủ tục trả góp</h5>
+        <p>• CMND + Bằng lái xe (bản gốc): đối với khoản vay dưới 10 triệu đồng.</p>
+        <p>• CMND + Hộ khẩu (bản gốc): Đối với khoản vay từ 10 triệu đồng trở lên.</p>
+        <h5>Mức lãi suất</h5>
+        <p>Mức lãi suất sẽ căn cứ trên số tiền vay, thời hạn vay (6 - 9 - 12 tháng) cũng như mức độ tín nhiệm của khách hàng. Mức lãi suất thấp nhất là 0.96%/tháng và được tính theo mức dư nợ giảm dần.</p>
+        <p><strong>NHỮNG CÂU HỎI THƯỜNG GẶP</strong></p>
+        <h6>1. Tôi có được mua trả góp tiếp khi đang trả góp hàng tháng sản phẩm khác không ?</h6>
+        <p>"Yêu cầu mua trả góp của quý khách sẽ được công ty tài chính xem xét tùy vào tình trạng hồ sơ. Tuy nhiên, để hồ sơ dễ dàng được công ty tài chính duyệt, quý khách nên góp hết hợp đồng cũ rồi mới làm tiếp hợp đồng khác"</p>
+        <h6>2. Tôi không có hộ khẩu ở TP.Hồ Chí Minh có thể mua trả góp tại 24hStore được không ?</h6>
+        <p>"Dịch vụ trả góp tại 24hStore hỗ trợ khách hàng có hộ khẩu ở 63 tỉnh thành trên cả nước (trong hộ khẩu gia đình không có thành viên nào có nợ xấu)"</p>
+        <h6>3. Tôi có cần công chứng giấy tờ, chứng minh thu nhập hoặc thế chấp tài sản khi mua trả góp tại 24hStore không ?</h6>
+        <p>"Khách hàng mua trả góp tại 24hStore chỉ cần cung cấp các giấy tờ cá nhân công ty tài chính yêu cầu mà không cần phải thế chấp nhà cửa/xe cộ/tài sản… để mua sản phẩm"</p>
+        <p>"Khách hàng không cần chuẩn bị các bản công chứng giấy tờ, chỉ cần mang bản gốc đến 24hStore, nhân viên sẽ hỗ trợ scan lại thông tin để gửi thẩm định"</p>
+        <p>"Với các khoản vay trên 10 triệu khách hàng mới phải chứng minh thu nhập của mình (in sao kê tài khoản lương tại ngân hàng trong 3 tháng gần nhất)"</p>
+        <h6>4. Tôi còn một số thắc mắc về trả góp nữa, làm sao để được giải đáp đây ?</h6>
+        <p>"Để được hỗ trợ nhanh nhất, bạn có thể gọi vào số hotline: 19000351 để được hỗ trợ bất kỳ lúc nào bạn nhé"</p>
+        <footer>
+          <div class="lien-he-1">
+            <div class="p1">
+                <ul>
+                    <li><a href="../html/GioiThieu.html">&#9733; Giới thiệu</a></li>
+                    <li><a href="../html/tinTuc.html">&#128240; Tin tức</a></li>
+                    <li><a href="../html/tuyenDung.html">&#128100; Tuyển dụng</a></li>
+                    <li><a href="../html/lienHe.html">&#x1F4E9; Liên hệ</a></li>
+                    <li><a href="../html/quyCheHoatDong.html">&#127980; Quy chế hoạt động</a></li>
+                    <li><a href="../html/vip.html">&#x1F4E9; Ưu đãi thành viên</a></li>
+                    <li><a href="../html/cauHoiThuongGap.html">&#128240; Câu hỏi thường gặp</a></li>
+                </ul>
+            </div>
+            <div class="p1">
+                <ul>
+                    <li><a href="../html/chinhSachBaoVeGia.html">&#128200; Chính sách bảo vệ giá</a></li>
+                    <li><a href="../html/chinhSachBaoHanh.html">&#128223; Chính sách bảo hành</a></li>
+                    <li><a href="../html/chinhSachDoiTra.html">&#128232; Chính sách đổi trả</a></li>
+                    <li><a href="../html/chinhSachBaoMat.html">&#128274; Chính sách bảo mật</a></li>
+                    <li><a href="../html/quyDinhSaoLuu.html">&#128223; Quy định về việc sao lưu</a></li>
+                    <li><a href="../html/muaTraGop.html">&#128200; Mua trả góp</a></li>
+                    <li><a href="../html/giaoHangVaThanhToan.html">&#128274; Giao hàng và thanh toán</a></li>
+                    <li><a href="../html/chinhSachSuDung.html">&#128232; Chính sách sử dụng</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="lien-he-2">
+                <div class="thanh-phan">
+                    <p>&#9742; Tổng đài mua hàng<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+                <div class="thanh-phan">
+                    <p>&#9742; Khách hàng doanh nghiệp<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+                <div class="thanh-phan">
+                    <p>&#9742; Phản ánh chất lượng<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+            </div>
+        </footer>
+        <div class="anh-footer">
+            <img src="../images/home/footer.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Giỏ hàng của bạn</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times</button>
+              </div>
+              <div class="modal-body">
+                  <table class="table table-hover table-bordered">
+                      <thead>
+                          <th class="col-2">Số thứ tự</th>
+                          <th class="col-7">Tên sản phẩm</th>
+                          <th class="col-3">Giá</th>
+                      </thead>
+                      <tbody id="cart-body">
+                      </tbody>
+                  </table>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Xác nhận</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

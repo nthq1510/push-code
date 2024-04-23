@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------HEADER---------------------------------- */
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+/* ------------------------------NAV---------------------------------- */
+
+.navbar {
+    padding: 0 10px;
+    background-color: rgba(30,143,4,255);
+}
+
+.navbar-nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2px 7px;
+}
+
+.navbar-nav li {
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+li .form-control {
+    height: auto;
+    font-size: 12px;
+}
+
+.navbar-nav li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* ------------------------------ĐĂNG KÝ - ĐĂNG NHẬP---------------------------------- */
+
+.dangnhap-dangki {
+    display: flex;
+    justify-content: center;
+}
+
+.dn-dk {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(240, 244, 244);
+}
+
+.dn-dk button {
+    padding: 2px 30px;
+}
+
+.col-7 img {
+    width: 100%;
+}

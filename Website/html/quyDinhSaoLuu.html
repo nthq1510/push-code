@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quy định về sao lưu dữ liệu</title>
+    <script src="../jquery/jquery-3.7.1.min.js"></script>
+    <script src="../boostrap/bootstrap.min.js"></script>
+    <script src="../js/cuocGoi.js"></script>
+    <script src="../js/gioHang.js"></script>
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style_quyDinhSaoLuu.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../images/home/anh_header.png" alt="">
+        </header>
+        <div class="navbar navbar-expand-lg">
+            <a href="#" class="navbar-brand text-white">&#x1F3EA; Store24h</a>
+            <div class="navbar-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link"><input type="text" name="" id="" class="form-control" placeholder="Bạn tìm gì..."></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btn btn-outline text-white" id="gio-hang">&#128722; Giỏ hàng</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btn btn-outline text-white" id="cuocgoi">&#x260E; Gọi mua hàng</a></li>
+                    <li class="nav-item"><a href="../html/sanDeal.html" class="nav-link btn btn-outline text-white">&#x1F4B0; SĂN DEAL 8.000Đ</a></li>
+                    <li class="nav-item"><a href="../html/vip.html" class="nav-link btn btn-outline text-white">&#127775; VIP</a></li>
+                    <li class="nav-item"><a href="../html/nhanVoucher.html" class="nav-link btn btn-outline text-white" id="gio-hang">&#128722; Nhận Voucher</a></li>
+                    <li class="nav-item"><a href="../html/thuCuDoiMoi.html" class="nav-link btn btn-outline text-white">&#x21BA; THU CŨ ĐỔI MỚI</a></li>
+                    <li class="nav-item"><a href="../html/tinTuc.html" class="nav-link btn btn-outline text-white">&#128240; Tin tức</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row dn-dk">
+            <div class="col dangnhap-dangki"><button type="button" class="btn btn-outline-success kexanh" id="btn-dn">&#128274; Đăng nhập</button></div>
+            <div class="col dangnhap-dangki"><button type="button" class="btn btn-outline-success kexanh">&#x1F4DD; Đăng ký</button></div>
+        </div>
+        <h4>QUY ĐỊNH VỀ VIỆC SAO LƯU DỮ LIỆU tại hệ thống <strong>24hStore.vn</strong></h4>
+        <p id="tieude">Quý khách hàng vui lòng đọc kỹ trước khi sử dụng dịch vụ sửa chữa/hoặc các dịch vụ khác. Đây là những điều kiện và điều khoản thoả thuận của <strong>Quý khách</strong> với Hệ thống 24hStore.vn cho các dịch vụ sửa chữa/thu cũ đổi mới, hay bất kỳ dịch vụ liên quan đến việc nâng cấp thiết bị, nâng cấp phần mềm nào thực hiện tại các cửa hàng thuộc hệ thống 24hStore.</p>
+        <img src="../images/quyDinhSaoLuu/quy-dinh-sao-luu-du-lieu-24hstore.jpg" alt="">
+        <h5>Bảo vệ và truy cập dữ liệu</h5>
+        <p>Để việc tiếp nhận sản phẩm diễn ra nhanh chóng và thuận lợi hơn, Quý khách hàng vui lòng lưu ý những điều sau:</p>
+        <p>- Gỡ bỏ hoặc Cung cấp thông tin mật khẩu màn hình cho kỹ thuật viên</p>
+        <p>- Thoát tất cả tài khoản bảo mật cá nhân như: Apple iCloud, Samsung Ac, MiCloud, Google,… Các ứng dụng mạng xã hội: Facebook, Zalo, Instagram,...</p>
+        <p>- Khách hàng vui lòng chủ động sao lưu dữ liệu trước khi gửi máy sửa chữa</p>
+        <p>- Khách hàng cần sao lưu dữ liệu vui lòng nhắc kỹ thuật viên hỗ trợ lưu giữ thông tin liên hệ, hình ảnh, video,...</p>
+        <p>Thông tin cá nhân khách hàng lưu trữ trên thiết bị có thể vô tình được tiết lộ cho kỹ thuật viên. 24hStore.vn cam kết không sao lưu - không chia sẻ - không phát tán những nội dung này trừ khi bạn hay luật pháp cho phép hoặc quy định khác. Để bảo vệ quyền truy cập vào các thông tin này, chúng tôi khuyến cáo Khách hàng thoát/xoá/cài đặt lại thiết bị của mình trước khi thực hiện sửa chữa. </p>
+        <h5>Sao lưu và xoá dữ liệu</h5>
+        <p>Thiết bị của bạn lưu giữ đầy ắp những kỷ niệm như ảnh chụp, video, file công việc… Người dùng hoàn toàn có thể dễ dàng truy cập, sao lưu và khôi phục dữ liệu trên không gian lưu trữ (iCloud, Samsung Cloud…), tuy nhiên thiết bị có thể hư hỏng khi bạn chưa kịp thực hiện đồng bộ dữ liệu mới.</p>
+        <p>Việc sửa chữa, cài đặt có thể khiến thiết bị khôi phục lại trạng thái mặc định của nhà sản xuất. Điều này có nghĩa là thiết bị của bạn sẽ mất hết các dữ liệu đang lưu trữ nhưng không giới hạn, bao gồm: hình ảnh, thông tin liên hệ, văn bản, nhạc, ứng dụng… </p>
+        <p>24hStore.vn hoàn toàn hiểu được tầm quan trọng của các dữ liệu và luôn hết sức hỗ trợ - hướng dẫn khách hàng trong việc sao lưu dữ liệu. Tuy nhiên, 24hStore.vn không chịu trách nhiệm nào về việc mất dữ liệu trong quá trình sửa chữa, nhất là đối với những hư hỏng liên quan đến phần mềm, bộ nhớ có thể làm mất dữ liệu trong quá trình sửa chữa.</p>
+        <p>24hStore.vn kính mong nhận được sự thấu hiểu và hợp tác từ Quý khách hàng! </p>
+        <p>Trân trọng!</p>
+        <footer>
+            <div class="lien-he-1">
+                <div class="p1">
+                    <ul>
+                        <li><a href="../html/GioiThieu.html">&#9733; Giới thiệu</a></li>
+                        <li><a href="../html/tinTuc.html">&#128240; Tin tức</a></li>
+                        <li><a href="../html/tuyenDung.html">&#128100; Tuyển dụng</a></li>
+                        <li><a href="../html/lienHe.html">&#x1F4E9; Liên hệ</a></li>
+                        <li><a href="../html/quyCheHoatDong.html">&#127980; Quy chế hoạt động</a></li>
+                        <li><a href="../html/vip.html">&#x1F4E9; Ưu đãi thành viên</a></li>
+                        <li><a href="../html/cauHoiThuongGap.html">&#128240; Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+                <div class="p1">
+                    <ul>
+                        <li><a href="../html/chinhSachBaoVeGia.html">&#128200; Chính sách bảo vệ giá</a></li>
+                        <li><a href="../html/chinhSachBaoHanh.html">&#128223; Chính sách bảo hành</a></li>
+                        <li><a href="../html/chinhSachDoiTra.html">&#128232; Chính sách đổi trả</a></li>
+                        <li><a href="../html/chinhSachBaoMat.html">&#128274; Chính sách bảo mật</a></li>
+                        <li><a href="../html/quyDinhSaoLuu.html">&#128223; Quy định về việc sao lưu</a></li>
+                        <li><a href="../html/muaTraGop.html">&#128200; Mua trả góp</a></li>
+                        <li><a href="../html/giaoHangVaThanhToan.html">&#128274; Giao hàng và thanh toán</a></li>
+                        <li><a href="../html/chinhSachSuDung.html">&#128232; Chính sách sử dụng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lien-he-2">
+                <div class="thanh-phan">
+                    <p>&#9742; Tổng đài mua hàng<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+                <div class="thanh-phan">
+                    <p>&#9742; Khách hàng doanh nghiệp<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+                <div class="thanh-phan">
+                    <p>&#9742; Phản ánh chất lượng<p>
+                    <p class="sdt">1900.0351</p>
+                </div>
+            </div>
+        </footer>
+        <div class="anh-footer">
+            <img src="../images/home/footer.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Giỏ hàng của bạn</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <th class="col-2">Số thứ tự</th>
+                            <th class="col-7">Tên sản phẩm</th>
+                            <th class="col-3">Giá</th>
+                        </thead>
+                        <tbody id="cart-body">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

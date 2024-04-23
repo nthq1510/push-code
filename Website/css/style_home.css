@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------HEADER---------------------------------- */
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+/* ------------------------------NAV---------------------------------- */
+
+.navbar {
+    padding: 0 10px;
+    background-color: rgba(30,143,4,255);
+}
+
+.navbar-nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2px 7px;
+}
+
+.navbar-nav li {
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+li .form-control {
+    height: auto;
+    font-size: 12px;
+}
+
+/* ------------------------------ĐĂNG KÝ - ĐĂNG NHẬP---------------------------------- */
+
+.dangnhap-dangki {
+    display: flex;
+    justify-content: center;
+}
+
+.dn-dk {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(240, 244, 244);
+}
+
+.dn-dk a {
+    padding: 2px 30px;
+}
+
+/* ------------------------------2 ẢNH QUẢNG CÁO---------------------------------- */
+
+.navbar-nav li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.kexanh:hover {
+    border-bottom: 5px solid rgba(30,143,4,255);
+}
+
+
+.anh {
+    display: inline-flex;
+}
+
+.anh col img {
+    width: 100%;
+    height: auto;
+}
+
+.anh-qc {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+}
+
+.anh-1 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    border: 2px solid rgba(30,143,4,255);
+    border-radius: 10px;
+    margin: 2px;
+    background-color: rgb(240, 244, 244);
+}
+
+.anh-1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+
+.anh-1 img {
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+
+.anh-1 img:hover {
+    transform: scale(1.05); /* Phóng to hình ảnh khi hover */
+}
+
+/* ------------------------------ LỌC - SẮP XẾP ---------------------------------- */
+
+
+.loc-gia {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+.loc-gia div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc-gia ul li {
+    display: inline-block; 
+    margin-right: 7px
+}
+
+.loc-gia p {
+    margin-right: 7px;
+}
+
+.loc-gia button {
+    padding: 2 7px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+/* ------------------------------GIAN HÀNG---------------------------------- */
+
+strong {
+    color:rgb(243, 49, 49);
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.card {
+    background-color: rgb(240, 244, 244);
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.card-group a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.card-group .card {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.card:hover {
+    box-shadow: 3px 4px 8px rgba(33, 176, 8, 0.1); /* Thêm hiệu ứng shadow khi hover */
+    transform: translateY(-2px); /* Di chuyển card lên trên khi hover */
+}
+
+.card-footer:hover {
+    background-color: #f8f9fa; /* Thay đổi màu nền footer khi hover */
+}
+
+.card-footer button {
+    margin-top: 5px;
+    color: white;
+    padding: 3px 9px;
+}
+
+.card-footer button:hover {
+    border: none;
+    background-color: rgba(107, 227, 94, 0.8);
+}
+
+/* ------------------------------footer---------------------------------- */
+footer {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.lien-he-1 {
+    display: inline-flex;
+    width: 67%;
+    padding: 10px;
+    background-color: rgb(240, 244, 244);
+    border-radius: 10px;
+}
+
+.p1 {
+    width: 50%;
+}
+
+.p1 a {
+    font-size: 12px;
+}
+
+.p1 a:hover {
+    color:rgba(30,143,4,255);
+}
+
+ul {
+    list-style: none;
+}
+
+.p1 a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.lien-he-2 {
+    width: 30%;
+    margin-left: 24px;
+    padding: 10px;
+    background-color: rgb(240, 244, 244);
+    border-radius: 10px;
+}
+
+.thanh-phan {
+    justify-content: space-between;
+    display: inline-flex;
+    width: 100%;
+    padding: 6px 4px;
+}
+
+.sdt {
+    color: rgba(30,143,4,255);
+    font-weight: bold;
+}
+
+.anh-footer {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* ------------------------------Modal---------------------------------- */
+.form-group label {
+    font-size: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.modal-header img {
+    width: 200px;
+}
+
+.centered {
+    display: flex;
+    margin-right: 10px;
+}
+
+.form-group span {
+    font-size: 14px;
+}
+
+.form-group input {
+    padding: 7px 20px;
+}
+
+#save {
+    padding: 5px 30px;
+}
+
+.modal table {
+    font-size: 14px;
+}
+
+.modal-body thead {
+    background-color: rgba(30,143,4,255);
+    color:white;
+}
